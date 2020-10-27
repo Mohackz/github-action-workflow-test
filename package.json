@@ -12,5 +12,7 @@
     "dev": "nodemon",
     "build": "rimraf ./build && tsc"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
 }
