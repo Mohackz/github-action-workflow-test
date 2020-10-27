@@ -1,0 +1,10 @@
+{
+  "name": "github-action-workflow-test",
+  "version": "0.1",
+  "description": "Just playing around with github actions 🙂 🏊",
+  "main": "./src/index.ts",
+  "repository": "git@github.com:Mohackz/github-action-workflow-test.git",
+  "author": "Mohackz <mohackz@live.fr>",
+  "license": "MIT",
+  "private": true
+}
