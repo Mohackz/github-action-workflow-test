@@ -1,11 +1,15 @@
-import { sum } from "./index";
+import { sum } from "./modules/maths";
 
 describe("function sum", () => {
-	it("should add a & b and return the result", () => {
-		let a: number = 4;
-		let b: number = 2;
-		let result: number = sum(4, 2);
+	it("should add 4 & 2 and return 6", () => {
+		let result = sum(4, 2);
 
 		expect(result).toBe(6);
+	});
+
+	it("should add 6 & 10 and return 16", () => {
+		let result = sum(6, 10);
+
+		expect(result).toBe(16);
 	});
 });
