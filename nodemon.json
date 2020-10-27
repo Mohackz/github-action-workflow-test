@@ -1,0 +1,5 @@
+{
+  "ignore": [],
+  "ext": ".js,.ts",
+  "exec": "ts-node ./src/index.ts"
+}
