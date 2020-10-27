@@ -1,3 +1,3 @@
-export function sum(a: number, b: number): number {
-	return 6;
-}
+import { sum } from "./modules/maths";
+
+console.log(sum(4, 0));
